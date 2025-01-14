@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cicek-pansiyonu", "cicek-pansiyonu\cicek-pansiyonu.csproj", "{B98286A3-A8C3-4528-82ED-E9280EE1E33B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Cicek Pansiyonu", "Cicek Pansiyonu\Cicek Pansiyonu.vdproj", "{0304E717-7924-446C-B231-6AEAFAD4B367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B98286A3-A8C3-4528-82ED-E9280EE1E33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98286A3-A8C3-4528-82ED-E9280EE1E33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98286A3-A8C3-4528-82ED-E9280EE1E33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98286A3-A8C3-4528-82ED-E9280EE1E33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0304E717-7924-446C-B231-6AEAFAD4B367}.Debug|Any CPU.ActiveCfg = Debug
+		{0304E717-7924-446C-B231-6AEAFAD4B367}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
