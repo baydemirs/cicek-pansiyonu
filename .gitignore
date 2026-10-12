@@ -361,3 +361,34 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Local credentials (keep shared App.config and packages.config versioned)
+.env
+.env.*
+!.env.example
+!.env.sample
+NuGet.Config.local
+nuget.config.local
+
+# SQLite transient files; preserve the existing database and schema sources
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+
+# Local database copies and Visual Studio installer outputs
+/local-data/
+*.msi
+*.msp
+*.cab
+
+# Runtime-generated WebView2 browser profiles
+*.WebView2/
+
+# Repository review is local documentation, not a publication artifact
+/docs/REPOSITORY_REVIEW.md
